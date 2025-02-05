@@ -1,0 +1,1 @@
+Para funcionar Perfeitamente voce devera criar um banco de dados (utilizei o MySQL, e executara o codigo que deixei em Banco De Dados.txt), depois disso precisara criar uma pasta chamada "Uploads" apartir disso estara funcionado perfeitamente
