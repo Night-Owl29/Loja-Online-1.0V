@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `produtos` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) NOT NULL,
+  `descricao` text NOT NULL,
+  `preco` decimal(10,2) NOT NULL,
+  `imagem` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+COMMIT;

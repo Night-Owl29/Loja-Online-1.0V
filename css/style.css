@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+#formProduto {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#formProduto input, #formProduto textarea, #formProduto button {
+    width: 100%;
+    padding: 10px 15px; /* Adiciona espaço interno nas laterais */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+#formProduto button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#formProduto button:hover {
+    background-color: #218838;
+}
+#listaProdutos {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+#listaProdutos li {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#listaProdutos li img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.btn-excluir {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn-excluir:hover {
+    background: #c82333;
+}
+
+.produto-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.produto-imagem {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Garante que a imagem não fique esticada */
+    border-radius: 8px;
+}
+
+.produto-info {
+    flex: 1; /* O texto ocupa o espaço restante */
+    font-size: 16px;
+    color: #333;
+    word-break: break-word; /* Evita que textos grandes quebrem o layout */
+}
